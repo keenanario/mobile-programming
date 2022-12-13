@@ -28,11 +28,14 @@ public class MainActivity extends AppCompatActivity {
         };
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
+
         //load data to adapter
         MyListAdapter adapter = new MyListAdapter(myListData);
         recyclerView.setHasFixedSize(true);
+
         //set Layout Manager
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
         //set adapter to recyclerview
         recyclerView.setAdapter(adapter);
     }
