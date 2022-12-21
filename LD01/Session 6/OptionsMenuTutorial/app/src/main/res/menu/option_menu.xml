@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Item 1"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/item2"
+        android:title="Item 2"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item3"
+        android:title="Item 3"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/subItem1"
+                android:title="Sub Item 1"/>
+            <item android:id="@+id/subItem2"
+                android:title="Sub Item 2"/>
+        </menu>
+    </item>
+</menu>
+
