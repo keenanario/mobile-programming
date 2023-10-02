@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pertemuan 3 LH01</string>
+    <string-array name="kampustList">
+        <item>Kemanggisan</item>
+        <item>Alam Sutera</item>
+        <item>Bandung</item>
+        <item>Malang</item>
+        <item>Bekasi</item>
+        <item>Semarang</item>
+    </string-array>
+</resources>
